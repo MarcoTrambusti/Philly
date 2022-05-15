@@ -18,6 +18,7 @@ body {
 #menu-secondary{
   display: none;
     position: relative;
+    height: 1000px;
 }
 
 #search-bar{

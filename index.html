@@ -217,7 +217,10 @@
             $(this).toggleClass("on");
             $(".arrow-up").toggleClass("mobile");
             $("#menu-secondary").toggleClass("mobile");
-            $(".page ").toggle();
+            if($(window).width() < 999){
+                $(".page ").toggle();
+            }
+            //
             return false;
         });
         $(".search-button").on("click", function () {

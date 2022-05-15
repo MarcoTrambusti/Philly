@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inquirer.com: Philadelphia local news, sports, jobs, cars, homes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="https://media.inquirer.com/designimages/favicon.ico" rel="icon"/>
+    <link rel="stylesheet" href="style/styles.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+<header id="header">
+    <div class="fixed">
+        <div class="underline" style="height: 127px;">
+            <div class=" main-header">
+                <div class="top-header flex-container-wrap">
+                    <div class="date my-auto">
+                        <a>Wednesday, May 11, 2022</a>
+                        <br>
+                        <a class="bold">Today's Paper</a>
+                    </div>
+                    <div class="logo"></div>
+                    <div class="login flex-container vertical">
+                        <div>
+                            <button class="login-button">
+                                <div class="button-content flex-container-wrap">
+                                    <div> sign-in /</div>
+                                    <div> sign-up</div>
+                                </div></button>
+                        </div>
+                        <span class="under-button">
+                           <a href="#" class="subscribe bold">Subscribe</a>
+                           <a class="slash">|</a>
+                           <a href="#" class="support bold">Support Local News</a>
+                        </span>
+                    </div>
+                    <nav class="navbar">
+                        <div class="container flex-container default-wrapper" style="height: 50px;">
+                            <ul id="menu-primary">
+                                <div class="buttons">
+                                    <li>
+                                        <div>
+                                            <a href="#" class="toggle-mnu"><span></span></a>
+                                            <div class="arrow-up"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <button class="search-button">
+                                            <div class="inq-icon inq-icon--small inq-icon--search">
+                                                <svg height="24" viewBox="0 0 24 24" width="24"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                                </svg>
+                                            </div>
+                                        </button>
+                                        <div class="arrow-up-2"></div>
+                                    </li>
+                                </div>
+                                <div class="hidden-mobile">
+                                    <li><a href="#" title="NEWS">NEWS</a></li>
+                                    <li><a href="#" title="SPORTS">SPORTS</a></li>
+                                    <li><a href="#" title="BUSINESS">BUSINESS</a></li>
+                                    <li><a href="#" title="OPINION">OPINION</a></li>
+                                    <li><a href="#" title="POLITICS">POLITICS</a></li>
+                                    <li><a href="#" title="ENTERTAINMENT">ENTERTAINMENT</a></li>
+                                    <li><a href="#" title="LIFE">LIFE</a></li>
+                                    <li><a href="#" title="FOOD">FOOD</a></li>
+                                    <li><a href="#" title="HEALTH">HEALTH</a></li>
+                                    <li><a href="#" title="REAL ESTATE">REAL ESTATE</a></li>
+                                    <li><a href="#" title="OBITUARIES">OBITUARIES</a></li>
+                                </div>
+                            </ul>
+
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="menu-secondary">
+            <div class="footer-table default-wrapper flex-container ">
+                <div class="footer-wrap flex-container">
+                    <div class="footer-column ">
+                        <div class="footer-list-header"><a class="bold">About Us</a></div>
+                        <ul class="footer-list vertical">
+                            <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                            <li class="footer-list-item"><a href="#">Advertise</a></li>
+                            <li class="footer-list-item"><a href="#">Contact Us</a></li>
+                            <li class="footer-list-item"><a href="#">Licensing & Permissions</a></li>
+                            <li class="footer-list-item"><a href="#">Photo Reprints</a></li>
+                            <li class="footer-list-item"><a href="#">Newspapers in Education</a></li>
+                            <li class="footer-list-item"><a href="#">Jobs & Internships</a></li>
+                            <li class="footer-list-item"><a href="#">Inquirer Events</a></li>
+                            <li class="footer-list-item"><a href="#">Acel Moore Workshops</a></li>
+                            <li class="footer-list-item"><a href="#">Newsroom Staff</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column ">
+                        <div class="footer-list-header"><a class="bold">About Us</a></div>
+                        <ul class="footer-list vertical">
+                            <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                            <li class="footer-list-item"><a href="#">Advertise</a></li>
+                            <li class="footer-list-item"><a href="#">Contact Us</a></li>
+                            <li class="footer-list-item"><a href="#">Licensing & Permissions</a></li>
+                            <li class="footer-list-item"><a href="#">Photo Reprints</a></li>
+                            <li class="footer-list-item"><a href="#">Newspapers in Education</a></li>
+                            <li class="footer-list-item"><a href="#">Jobs & Internships</a></li>
+                            <li class="footer-list-item"><a href="#">Inquirer Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-wrap flex-container">
+                    <div class="footer-column ">
+                        <div class="footer-list-header"><a class="bold">About Us</a></div>
+                        <ul class="footer-list vertical">
+                            <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                            <li class="footer-list-item"><a href="#">Advertise</a></li>
+                            <li class="footer-list-item"><a href="#">Contact Us</a></li>
+                            <li class="footer-list-item"><a href="#">Licensing & Permissions</a></li>
+                            <li class="footer-list-item"><a href="#">Photo Reprints</a></li>
+                            <li class="footer-list-item"><a href="#">Newspapers in Education</a></li>
+                            <li class="footer-list-item"><a href="#">Jobs & Internships</a></li>
+                            <li class="footer-list-item"><a href="#">Inquirer Events</a></li>
+                            <li class="footer-list-item"><a href="#">Acel Moore Workshops</a></li>
+                            <li class="footer-list-item"><a href="#">Newsroom Staff</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column ">
+                        <div class="footer-list-header"><a class="bold">About Us</a></div>
+                        <ul class="footer-list vertical">
+                            <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                            <li class="footer-list-item"><a href="#">Advertise</a></li>
+                        </ul>
+                        <div class="footer-list-header"><a class="bold">About Us</a></div>
+                        <ul class="footer-list vertical">
+                            <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                            <li class="footer-list-item"><a href="#">Advertise</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="search-bar">
+                    <input class="search" type="text">
+
+        </div>
+    </div>
+</header>
+
+<script>
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    // When the user scrolls down 50px from the top of the document, resize the header's font size
+    function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            /*document.getElementById("header").style.fontSize = "5px";*/
+            document.getElementsByClassName("logo")[0].style.width = "325px";
+            document.getElementsByClassName("hidden-mobile")[0].style.display = "none";
+            document.getElementsByClassName("buttons")[0].style.display = "flex";
+            document.getElementsByClassName("underline")[0].style.height = "62px";
+            document.getElementById("search-bar").style.top="53px";
+            document.getElementsByClassName("support")[0].style.display = "none";
+            document.getElementsByClassName("slash")[0].style.display = "none";
+            document.getElementsByClassName("subscribe")[0].style.height = "45px";
+            document.getElementsByClassName("date")[0].style.display = "none";
+            document.getElementsByClassName("login")[0].style.flexDirection = "row-reverse";
+            document.getElementsByClassName("logo")[0].style.order = "2";
+            document.getElementsByClassName("navbar")[0].style.order = "1";
+            document.getElementsByClassName("login")[0].style.order = "3";
+            document.getElementsByClassName("toggle-mnu")[0].style.marginTop = "0px";
+            document.getElementsByClassName("search-button")[0].style.marginTop = "0px";
+            document.getElementsByClassName("arrow-up")[0].style.marginTop = "15px";
+            document.getElementsByClassName("arrow-up-2")[0].style.marginTop = "14px";
+            document.getElementsByClassName("login-button")[0].style.margin = "0 12px";
+
+
+        } else {
+            /* document.getElementById("header").style.fontSize = "10px";*/
+            document.getElementsByClassName("arrow-up")[0].style.marginTop = "5px";
+            document.getElementsByClassName("arrow-up-2")[0].style.marginTop = "5px";
+            document.getElementsByClassName("toggle-mnu")[0].style.marginTop = "7px";
+            document.getElementsByClassName("search-button")[0].style.marginTop = "5px";
+            document.getElementsByClassName("logo")[0].style.order = "1";
+            document.getElementsByClassName("navbar")[0].style.order = "3";
+            document.getElementsByClassName("login")[0].style.order = "2";
+            document.getElementsByClassName("buttons")[0].style.display = "initial";
+            document.getElementsByClassName("underline")[0].style.height = "127px";
+            document.getElementById("search-bar").style.top="117px";
+            document.getElementsByClassName("hidden-mobile")[0].style.display = "initial";
+            document.getElementsByClassName("logo")[0].style.width = "500px"
+            document.getElementsByClassName("navbar")[0].style.display = "initial";
+            document.getElementsByClassName("slash")[0].style.display = "initial";
+            document.getElementsByClassName("support")[0].style.display = "initial";
+            document.getElementsByClassName("date")[0].style.display = "initial";
+            document.getElementsByClassName("date")[0].style.display = "initial";
+            document.getElementsByClassName("login")[0].style.flexDirection = "column";
+            document.getElementsByClassName("navbar")[0].classList.remove("underline");
+            document.getElementsByClassName("login-button")[0].style.margin = "0 0 0 30px";
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".toggle-mnu").on("click", function () {
+            if($("#search-bar").hasClass("mobile2") && $("#search-bar").hasClass("mobile2") ){
+                $(".search-button").click();
+            }
+            $(this).toggleClass("on");
+            $(".arrow-up").toggleClass("mobile");
+            $("#menu-secondary").toggleClass("mobile");
+            return false;
+        });
+        $(".search-button").on("click", function () {
+            if($("#menu-secondary").hasClass("mobile") && $(".arrow-up").hasClass("mobile") ){
+                $(".toggle-mnu").click();
+            }
+            $(this).toggleClass("on");
+            $(".arrow-up-2").toggleClass("mobile2");
+            $("#search-bar").toggleClass("mobile2");
+            return false;
+        });
+
+    });
+</script>
+<main class="flex-container-wrap">
+    <div>
+        <div class="homepage-top default-wrapper flex-container ">
+            <div class="homepage-top-main flex-container">
+                <div class="main1 inq-card ">
+                    <div class="main1-wrap">
+                        <img class="main1img" src="images/main1760x467.png">
+                        <div class="texts">
+                            <h2>TITLE MAIN 1</h2>
+                            <a class="description">textextextextedttdtextetxtee</a>
+                            <a class="author">author</a>
+                        </div>
+                    </div>
+                    <div class="sub-card">
+                        <ul class="latest-list flex-container vertical">
+                            <il class="list-card flex-container">
+                                <div class="icon">
+                                    <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" fill="#1a6aff"
+                                         aria-hidden="true">
+                                        <g>
+                                            <rect x="1" y="2" width="13" height="2"></rect>
+                                            <rect x="1" y="6.5" width="13" height="2"></rect>
+                                            <rect x="1" y="11" width="7" height="2"></rect>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <a href="#">news1</a>
+                            </il>
+                            <il class="list-card flex-container">
+                                <div class="icon">
+                                    <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" fill="#1a6aff"
+                                         aria-hidden="true">
+                                        <g>
+                                            <rect x="1" y="2" width="13" height="2"></rect>
+                                            <rect x="1" y="6.5" width="13" height="2"></rect>
+                                            <rect x="1" y="11" width="7" height="2"></rect>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <a href="#">Jameial Lyons committed to a position switch and becoming Penn State’s edge
+                                    rusher
+                                    of the future</a>
+                            </il>
+                            <il class="list-card flex-container">
+                                <div class="icon">
+                                    <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" fill="#1a6aff"
+                                         aria-hidden="true">
+                                        <g>
+                                            <rect x="1" y="2" width="13" height="2"></rect>
+                                            <rect x="1" y="6.5" width="13" height="2"></rect>
+                                            <rect x="1" y="11" width="7" height="2"></rect>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <a href="#">news3</a>
+                            </il>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main2 inq-card">
+                    <div class="main2-wrap">
+                        <img class="main2img" src="images/main2700x467.png">
+                        <div class="texts">
+                            <h2>TITLE MAIN 2</h2>
+                            <a class="description">textextextextedttdtextetxtee</a>
+                            <a class="author">author</a>
+                        </div>
+                    </div>
+                    <div class="sub-card">
+                        <h2>TITLE MAIN 2</h2>
+                        <a class="description">textextextextedttdtextetxtee</a>
+                        <a class="author">author</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-card latest inq-card">
+                <ul class="latest-list flex-container-wrap vertical">
+                    <hl class="latest-list-card"><a>The Latest</a></hl>
+                    <il class="latest-list-card"><a href="#">news1</a></il>
+                    <il class="latest-list-card"><a href="#">Jameial Lyons committed to a position switch and becoming
+                        Penn
+                        State’s edge rusher of the future</a></il>
+                    <il class="latest-list-card"><a href="#">news3</a></il>
+                    <il class="latest-list-card"><a href="#">news4</a></il>
+                    <il class="latest-list-card"><a href="#">news5</a></il>
+                    <il class="latest-list-card"><a href="#">news6</a></il>
+                    <il class="latest-list-card"><a href="#">news7</a></il>
+                    <il class="latest-list-card"><a href="#">news8</a></il>
+                    <il class="latest-list-card"><a href="#">news9</a></il>
+                </ul>
+            </div>
+        </div>
+        <div class="homepage-middle default-wrapper vertical ">
+            <div class="middle">
+                <div class="middleh flex-container">
+                    <h2>The Region</h2>
+                    <a class="more bold" href="#">More &#8594;</a>
+                </div>
+                <div class="homepage-middle-main ">
+                    <div class="middle1-wrap flex-container-wrap">
+                        <div class="texts vertical">
+                            <h1>TITLE MAIN 1</h1>
+                            <a class="description">textextextextedttdtextetxtee</a>
+                            <a class="author">author</a>
+                        </div>
+                        <img class="main3img" src="images/main3500x333.png">
+                    </div>
+                </div>
+                <div class="middle2 flex-container">
+                    <div class="vertical">
+                        <div class="middle2-card">
+                            <div class="middle2-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main4img" src="images/mian5200x200.png">
+                            </div>
+                        </div>
+                        <div class="middle2-card">
+                            <div class="middle2-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main4img" src="images/mian5200x200.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="middle2-card">
+                            <div class="middle2-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main4img" src="images/mian5200x200.png">
+                            </div>
+                        </div>
+                        <div class="middle2-card">
+                            <div class="middle2-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main4img" src="images/mian5200x200.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middleh  flex-container">
+                    <h2>Nation & World</h2>
+                    <a class="more bold" href="#">More &#8594;</a>
+                </div>
+                <div class="middle3 flex-container">
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container ">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.1</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.3</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middle4-main flex-container">
+                    <div class="mid-content">
+                        <div class="middleh flex-container">
+                            <h2>Sports</h2>
+                            <a class="more bold" href="#">More &#8594;</a>
+                        </div>
+                        <div class="middle4-wrap flex-container">
+                            <div class="middle3 ">
+                                <div class="main1-wrap">
+                                    <img class="main1img" src="images/main1760x467.png">
+                                    <div class="texts">
+                                        <h2>TITLE MAIN 1</h2>
+                                        <a class="description">textextextextedttdtextetxtee</a>
+                                        <a class="author">author</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="middle4-side flex-container">
+                                <div class="middle4 ">
+                                    <div class="middle4-wrap">
+                                        <div class="vertical">
+                                            <div class="middle2-card">
+                                                <div class=" vertical">
+                                                    <img class="main6img" src="images/main6350x233.png">
+                                                    <div class="texts vertical">
+                                                        <h2>TITLE MAIN 2</h2>
+                                                        <a class="author">author</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="middle2-card">
+                                                <div class=" vertical">
+                                                    <img class="main6img" src="images/main6350x233.png">
+                                                    <div class="texts vertical">
+                                                        <h2>TITLE MAIN 2</h2>
+                                                        <a class="author">author</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="middle4 flex-container">
+                                    <div class="middle4-wrap flex-container">
+                                        <div class="vertical">
+                                            <div class="middle2-card">
+                                                <div class="vertical">
+                                                    <div><img class="main6img" src="images/main6350x233.png"></div>
+                                                    <div class="texts vertical">
+                                                        <h2>TITLE MAIN 2</h2>
+                                                        <a class="author">author</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="middle2-card">
+                                                <div class=" vertical">
+                                                    <img class="main6img" src="images/main6350x233.png">
+                                                    <div class="texts vertical">
+                                                        <h2>TITLE MAIN 2</h2>
+                                                        <a class="author">author</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-card latest inq-card adv">
+                        <a>Advertisement</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="homepage-bottom default-wrapper ">
+            <div class="middle">
+                <div class="middleh  flex-container">
+                    <h2>Inquirer Newsletters</h2>
+                    <a class="more bold" href="#">More &#8594;</a>
+                </div>
+                <div class=" middle3-vertical middle3 flex-container">
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container ">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.1</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.3</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle">
+                <div class="middle4-main flex-container">
+                    <div class="mid-content">
+                        <div class="middleh  flex-container">
+                            <h2>Property Assessments</h2>
+                            <a class="more bold" href="#">More &#8594;</a>
+                        </div>
+                        <div class="middle4 middle4-vertical flex-container">
+                            <div class="middle3-wrap">
+                                <div class="vertical">
+                                    <div class="middle2-card">
+                                        <div class="light-underline flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="middle2-card">
+                                        <div class="light-underline flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="middle2-card">
+                                        <div class="light-underline flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="middle2-card">
+                                        <div class=" flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-card latest inq-card space"></div>
+                        </div>
+                    </div>
+                    <div class="sub-card latest inq-card adv">
+                        <a>Advertisement</a>
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middle4-main flex-container">
+                    <div class="mid-content">
+                        <div class="middleh  flex-container">
+                            <h2>Health & Science</h2>
+                            <a class="more bold" href="#">More &#8594;</a>
+                        </div>
+
+                        <div class="middle4 middle4-vertical health flex-container">
+                            <div class="middle3-wrap middle5">
+                                <div class="vertical">
+                                    <div class="middle2-card">
+                                        <div class="light-underline flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="middle2-card">
+                                        <div class="light-underline flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="middle2-card">
+                                        <div class="light-underline flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="middle2-card">
+                                        <div class=" flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-card latest inq-card adv flex-container middle5">
+                                <div class="vertical">
+                                    <div class="texts texts2 vertical ">
+                                        <h2>The State of the Pandemic</h2>
+                                        <a class="author">author</a>
+                                    </div>
+                                    <div class="middle4-side flex-container">
+                                        <div class="middle4 flex-container">
+                                            <div class="middle4-wrap flex-container">
+                                                <div class="vertical">
+                                                    <div class="middle2-card">
+                                                        <div class="vertical">
+                                                            <div><img class="main7img" src="images/main7286x233.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="middle4 flex-container">
+                                            <div class="middle4-wrap flex-container">
+                                                <div class="vertical">
+                                                    <div class="middle2-card">
+                                                        <div class="vertical">
+                                                            <div><img class="main7img" src="images/main7286x233.png">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middle4-main flex-container">
+                    <div class="mid-content">
+                        <div class="middleh  flex-container">
+                            <h2>opinion</h2>
+                            <a class="more bold" href="#">More &#8594;</a>
+                        </div>
+                        <div class="middle4 middle4-vertical flex-container">
+                            <div class="middle3-wrap">
+                                <div class="vertical">
+                                    <div class="middle2-card">
+                                        <div class="light-underline flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="middle2-card">
+                                        <div class="light-underline flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="middle2-card">
+                                        <div class="light-underline flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="middle2-card">
+                                        <div class=" flex-container" style="padding-bottom: 20px">
+                                            <div><img class="main6img2" src="images/main6350x233.png"></div>
+                                            <div class="texts vertical">
+                                                <h2>TITLE MAIN 2</h2>
+                                                <a class="author">author</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-card latest inq-card space"></div>
+                        </div>
+                    </div>
+                    <div class="sub-card latest inq-card adv">
+                        <a>Advertisement</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle">
+                <div class="middleh  flex-container">
+                    <h2>Food & Drink</h2>
+                    <a class="more bold" href="#">More &#8594;</a>
+                </div>
+                <div class="middle3 flex-container">
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container ">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.1</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.3</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middleh  flex-container">
+                    <h2>Real Estate</h2>
+                    <a class="more bold" href="#">More &#8594;</a>
+                </div>
+                <div class="middle3 flex-container">
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container ">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.1</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.3</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middleh  flex-container">
+                    <h2>Entertainment</h2>
+                    <a class="more bold" href="#">More &#8594;</a>
+                </div>
+                <div class="middle3 flex-container">
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container ">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.1</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.3</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middleh  flex-container">
+                    <h2>Video 📽️</h2>
+                    <a class="more bold" href="#">More &#8594;</a>
+                </div>
+                <div class="middle3 flex-container">
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container ">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.1</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.2</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                        <div class="middle3-card ">
+                            <div class="middle3-wrap flex-container">
+                                <div class="texts vertical">
+                                    <h2>TITLE MAIN 2.3</h2>
+                                    <a class="author">author</a>
+                                </div>
+                                <img class="main5img" src="images/main4300x200.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <div class="footer-container  flex-container-wrap">
+                    <div class="footer-table default-wrapper flex-container ">
+                        <div class="footer-wrap flex-container">
+                            <div class="footer-column ">
+                                <div class="footer-list-header"><a class="bold">About Us</a></div>
+                                <ul class="footer-list vertical">
+                                    <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                                    <li class="footer-list-item"><a href="#">Advertise</a></li>
+                                    <li class="footer-list-item"><a href="#">Contact Us</a></li>
+                                    <li class="footer-list-item"><a href="#">Licensing & Permissions</a></li>
+                                    <li class="footer-list-item"><a href="#">Photo Reprints</a></li>
+                                    <li class="footer-list-item"><a href="#">Newspapers in Education</a></li>
+                                    <li class="footer-list-item"><a href="#">Jobs & Internships</a></li>
+                                    <li class="footer-list-item"><a href="#">Inquirer Events</a></li>
+                                    <li class="footer-list-item"><a href="#">Acel Moore Workshops</a></li>
+                                    <li class="footer-list-item"><a href="#">Newsroom Staff</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column ">
+                                <div class="footer-list-header"><a class="bold">About Us</a></div>
+                                <ul class="footer-list vertical">
+                                    <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                                    <li class="footer-list-item"><a href="#">Advertise</a></li>
+                                    <li class="footer-list-item"><a href="#">Contact Us</a></li>
+                                    <li class="footer-list-item"><a href="#">Licensing & Permissions</a></li>
+                                    <li class="footer-list-item"><a href="#">Photo Reprints</a></li>
+                                    <li class="footer-list-item"><a href="#">Newspapers in Education</a></li>
+                                    <li class="footer-list-item"><a href="#">Jobs & Internships</a></li>
+                                    <li class="footer-list-item"><a href="#">Inquirer Events</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-wrap flex-container">
+                            <div class="footer-column ">
+                                <div class="footer-list-header"><a class="bold">About Us</a></div>
+                                <ul class="footer-list vertical">
+                                    <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                                    <li class="footer-list-item"><a href="#">Advertise</a></li>
+                                    <li class="footer-list-item"><a href="#">Contact Us</a></li>
+                                    <li class="footer-list-item"><a href="#">Licensing & Permissions</a></li>
+                                    <li class="footer-list-item"><a href="#">Photo Reprints</a></li>
+                                    <li class="footer-list-item"><a href="#">Newspapers in Education</a></li>
+                                    <li class="footer-list-item"><a href="#">Jobs & Internships</a></li>
+                                    <li class="footer-list-item"><a href="#">Inquirer Events</a></li>
+                                    <li class="footer-list-item"><a href="#">Acel Moore Workshops</a></li>
+                                    <li class="footer-list-item"><a href="#">Newsroom Staff</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column ">
+                                <div class="footer-list-header"><a class="bold">About Us</a></div>
+                                <ul class="footer-list vertical">
+                                    <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                                    <li class="footer-list-item"><a href="#">Advertise</a></li>
+                                </ul>
+                                <div class="footer-list-header"><a class="bold">About Us</a></div>
+                                <ul class="footer-list vertical">
+                                    <li class="footer-list-item"><a href="#">About The Inquirer</a></li>
+                                    <li class="footer-list-item"><a href="#">Advertise</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-container flex-container-wrap">
+                    <div class="footer-row flex-container-wrap">
+                        <div class="footer-copyright-container">
+                            <a class="footer-link" data-link-type="footer"
+                               href="#">©
+                                2022
+                                The Philadelphia Inquirer, LLC</a>
+                            <br/>
+                            <a class="footer-link" data-link-type="footer"
+                               href="#">Terms of Use</a>
+                            <strong>/&nbsp;&nbsp;</strong>
+                            <a class="footer-link" data-link-type="footer"
+                               href="#">Privacy
+                                Policy</a>
+                            <strong>/&nbsp;&nbsp;</strong>
+                            <a class="footer-link" data-link-type="footer"
+                               href="#">Cancellation
+                                Policy</a>
+                            <strong>/&nbsp;&nbsp;</strong>
+                            <a class="footer-link" data-link-type="footer"
+                               href="#">California
+                                Notice</a>
+                            <strong>/&nbsp;&nbsp;</strong>
+                            <a class="footer-link hidden-mobile" data-link-type="footer"
+                               href="#">California residents do not sell
+                                my data
+                                request</a>
+                        </div>
+                        <div class="footer-social flex-container-wrap">
+                            <a class="footer-link" data-link-type="footer"
+                               href="#"><img
+                                    alt="faTwitter" aria-hidden="true"
+                                    src="https://media.inquirer.com/assets/faTwitter.svg"/></a>
+
+                            <a class="footer-link" data-link-type="footer"
+                               href="#"><img
+                                    alt="faFacebook" aria-hidden="true" class="inline w-4 h-16 object-center"
+                                    src="https://media.inquirer.com/assets/faFacebook.svg"/></a>
+
+                            <a class="footer-link" data-link-type="footer"
+                               href="#"><img
+                                    alt="faInstagram" aria-hidden="true" class="inline w-4 h-16 object-center"
+                                    src="https://media.inquirer.com/assets/faInstagram.svg"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</main>
+
+</body>
+</html>

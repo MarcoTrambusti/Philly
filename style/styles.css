@@ -297,7 +297,7 @@ header {
 
 /*END NAVIGATION RULES*/
 .logo {
-    background-image: url("../images/inquirer-logo-official-v2.svg");
+    background-image: url("../images/inquirer-logo-official-v2.png");
     width: 500px;
     height: 63px;
     transition: 0.5s;
@@ -958,7 +958,7 @@ footer a {
     .logo{
         width: 140px !important;
         height: 60px;
-        background-image: url("/images/inquirer-logo-mobile-01.svg");
+        background-image: url("/images/inquirer-logo-mobile-01.png");
     }
 
 }

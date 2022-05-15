@@ -963,6 +963,9 @@ footer a {
 
 }
 @media screen and (max-width: 480px) {
+    #menu-secondary .flex-container{
+        display: block;
+    }
     .main6img2{
         max-width: 105px;
     }

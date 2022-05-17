@@ -816,7 +816,8 @@ footer a {
 }
 
 @media screen and (max-width: 850px) {
-    .footer-container>.footer-row {
+    .footer-container>.default-wrapper>.footer-row {
+        flex-wrap: wrap;
         flex-direction: column-reverse;
         text-align: center;
     }

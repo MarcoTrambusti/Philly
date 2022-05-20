@@ -12,7 +12,7 @@
 <body>
 <header id="header">
     <div class="fixed">
-        <div class="to-fix">
+        <div class="to-fix ">
             <div class="underline" style="height: 127px;">
                 <div class=" main-header default-wrapper">
                     <div class="top-header flex-container-wrap">
@@ -81,10 +81,12 @@
                     </div>
                 </div>
             </div>
+            <div class="default-wrapper" style="height: 0;"> 
             <div id="search-bar">
                 <input class="search" type="text">
 
             </div>
+        </div>
         </div>
         <div id="menu-secondary">
             <div class="footer-table default-wrapper flex-container ">
@@ -166,7 +168,7 @@
             document.getElementsByClassName("hidden-mobile")[0].style.display = "none";
             document.getElementsByClassName("buttons")[0].style.display = "flex";
             document.getElementsByClassName("underline")[0].style.height = "62px";
-            document.getElementById("search-bar").style.top = "53px";
+            /*document.getElementById("search-bar").style.top = "53px";*/
             document.getElementsByClassName("support")[0].style.display = "none";
             document.getElementsByClassName("slash")[0].style.display = "none";
             document.getElementsByClassName("subscribe")[0].style.height = "45px";
@@ -193,7 +195,7 @@
             document.getElementsByClassName("login")[0].style.order = "2";
             document.getElementsByClassName("buttons")[0].style.display = "initial";
             document.getElementsByClassName("underline")[0].style.height = "127px";
-            document.getElementById("search-bar").style.top = "117px";
+            /*document.getElementById("search-bar").style.top = "117px";*/
             document.getElementsByClassName("hidden-mobile")[0].style.display = "initial";
             document.getElementsByClassName("logo")[0].style.width = "500px"
             document.getElementsByClassName("navbar")[0].style.display = "initial";
@@ -219,6 +221,7 @@
             $("#menu-secondary").toggleClass("mobile");
             if($(window).width() < 999){
                 $(".page ").toggle();
+                $("footer ").toggle();
             }
             //
             return false;

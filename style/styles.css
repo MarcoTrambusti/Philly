@@ -22,8 +22,8 @@ body {
 }
 
 #search-bar{
-    position: absolute;
-    top: 117px;
+    position: relative;
+    /*top: 117px;*/
     left:40px;
     display: none;
     max-width: 616px;
